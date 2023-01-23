@@ -1,0 +1,29 @@
+html{
+    background-color: rgb(187, 84, 53);
+}
+
+
+h1{
+    color:darkred;
+}
+.first{
+    font-family: “Kompar Black”, sans-serif;
+    color:rgb(201, 214, 216);
+}
+img{
+    width:600px;
+}
+
+ul{
+    list-style-type:armenian;
+}
+
+@font-face {
+	font-family: 'Kompar Black';
+	src: url('../fonts/kompar_black.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/kompar_black.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/kompar_black.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/kompar_black.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/kompar_black.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/kompar_black.svg#kompar_black') format('svg'); /* Chrome < 4, Legacy iOS */
+}
